@@ -7,15 +7,21 @@
 </head>
 <body>
     <h1>Reproduzindo vídeos em HTML5.</h1>
-    <video width="500" controls>
+    <h3>Utilizando a tag &lt;video&gt;</h3>
+    <!--Problema de usar a tag <video> - e hospedar os vídeos no servidor local do cliente ou site dele. É que irá gerar um consumo monstruoso de banda = Tráfego de dados, o que irá se tornar super caro para o cliente pagar ao provedor. --> 
+    <video width="560" controls>
        <source src="midia/ruslan-sikunov(1080p).mp4" type="video/mp4">
        <source src="midia/Ruslan-Sikunov(720P).mp4" type="video/mp4">
        <source src="midia/Ruslan-Sikunov(720P).webm" type="video/webm">
        <source src="midia/Ruslan-Sikunov(720P).ogv" type="video/ogv">
        <p>Seu reprodutor não tem compatibilidade com reprodução de vídeos.</p>
     </video>
-    <!--Problema de usar a tag <video> - e hospedar os vídeos no servidor local do cliente ou site dele. É que irá gerar um consumo monstruoso de banda = Tráfego de dados, o que irá se tornar super caro para o cliente pagar ao provedor. --> 
+    
     <h3>Reproduzindo vídeos do Youtube</h3>
+    <!-- Fazendo assim, o consumo de dados será feito lá do servidor do youtube e não do servidor do cliente, gerando menos gasto de tráfego de dados.-->
+    <!--Outra vantagem de usar o youtube é que ele é o maior buscador do mundo de vídeos e está conectado ao google, aumentando a probabilidade de visualizações para o cliente-->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=5dPZelT27zLwjh4K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Inserindo vídeos do Vimeo</h3>
+    
 </body>
 </html>
