@@ -7,11 +7,13 @@
 </head>
 <body>
     <h1>Reproduzindo vídeos em HTML5.</h1>
-    <video controls>
+    <video width="500" controls>
        <source src="midia/ruslan-sikunov(1080p).mp4" type="video/mp4">
        <source src="midia/Ruslan-Sikunov(720P).mp4" type="video/mp4">
        <source src="midia/Ruslan-Sikunov(720P).webm" type="video/webm">
        <source src="midia/Ruslan-Sikunov(720P).ogv" type="video/ogv">
+       <p>Seu reprodutor não tem compatibilidade com reprodução de vídeos.</p>
     </video>
+    <!--Problema de usar a tag <video> - e hospedar os vídeos no servidor local do cliente ou site dele. É que irá gerar um consumo monstruoso de banda = Tráfego de dados, o que irá se tornar super caro para o cliente pagar ao provedor. --> 
 </body>
 </html>
