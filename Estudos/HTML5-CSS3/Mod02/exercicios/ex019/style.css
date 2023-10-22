@@ -3,20 +3,24 @@
     em HTML é id    = em CSS é #
     em HTML é class = em CSS é .
 */
+/*
+id é único
+class pode ser múltiplo
+*/
 body {
-    background-color: rgb(149, 236, 149);
+    background-color: #C5D5E4;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: rgb(4,109,0);
+    color: #A675A1;
 }
 
 h1#principal {
-    color: white;
+    color: #25283D;
     text-align: center ;
-    background-color: rgba(25, 82, 25, 0.966);
+    background-color: #CEA2AC;
 }
 h2 {
     color: rgb(73, 109, 71);
-}
+} 
