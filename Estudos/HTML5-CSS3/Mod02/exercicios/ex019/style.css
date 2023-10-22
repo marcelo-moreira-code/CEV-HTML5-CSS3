@@ -13,8 +13,9 @@ h1 {
 }
 
 h1#principal {
-    color: blue;
+    color: white;
     text-align: center ;
+    background-color: rgba(25, 82, 25, 0.966);
 }
 h2 {
     color: rgb(73, 109, 71);
