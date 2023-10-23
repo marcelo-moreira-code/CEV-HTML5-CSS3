@@ -8,12 +8,25 @@ id é único
 class pode ser múltiplo
 */
 body {
-    background-color: #C5D5E4;
+    
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #372b50, #BD84AD);
 }
+main {
 
+    background-color: white;
+    text-align:a;
+    text-indent: 25px;
+    width: 600px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px black;
+    margin: auto;
+    padding: 25px;
+    
+}
 h1 {
     color: #A675A1;
+    
 }
 
 h1#principal {
