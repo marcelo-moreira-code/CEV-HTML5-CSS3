@@ -49,3 +49,7 @@ h2 {
 .avancado {
     color: rgb(109, 71, 71);
 }
+
+.destaque {
+    background-color: rgba(173, 173, 78, 0.534);
+}
