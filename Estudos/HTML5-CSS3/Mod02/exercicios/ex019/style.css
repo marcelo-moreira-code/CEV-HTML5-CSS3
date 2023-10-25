@@ -36,4 +36,16 @@ h1#principal {
 }
 h2 {
     color: rgb(73, 109, 71);
-} 
+}
+
+.basico {
+    color: rgb(73, 109, 71);
+}
+
+.intermediario {
+    color: rgb(109, 103, 71);
+}
+
+.avancado {
+    color: rgb(109, 71, 71);
+}
