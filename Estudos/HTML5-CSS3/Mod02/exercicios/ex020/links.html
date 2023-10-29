@@ -27,6 +27,16 @@
         a:active {
             color: yellow;
         }
+        
+        a::before{
+            content: '→';
+        }
+        a::after {
+            
+            content: ' [link]←';
+            text-decoration: none;
+            color: lightblue;
+        }
     </style>
 </head>
 <body>
