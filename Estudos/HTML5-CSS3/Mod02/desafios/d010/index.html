@@ -4,11 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 010 - CEV</title>
+    <style>
+        @font-face {
+            font-family:"idroid";
+            src: url(fontes/idroid.otf) type(-opentype);
+        }
+
+        h1#titulo-cabecalho {
+            font-size: 18px;
+            text-align: center;
+            font-family:  Arial, Helvetica, sans-serif;
+            padding-top: 10px;
+        }
+        header {
+            background-color: rgba(29, 136, 29, 0.87);
+            color: white;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 15px;
+
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        nav {
+            text-align: left;
+            margin: 10px;
+        }
+
+        nav > a {
+            padding: 10px;
+        }
+
+        body {
+            background-color: lightgreen;
+        }
+        main {
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            padding: 15px;
+            padding-top: 2px;
+            text-indent: 15px;
+        }
+
+        .tipo-um {
+            color: rgba(0, 100, 0, 0.904);
+        }
+
+        .tipo-dois {
+            background-color: rgba(144, 238, 144, 0.548);
+        }
+
+        p#yt-vd{
+           background-color: darkgreen;
+        }
+
+        .titulo-tres {
+            background-color: darkgreen;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1 id="titulo-principal">CURIOSIDADE DE TECNOLOGIA</h1>
-        <h2>Tudo aquilo que você sempre quis sabaer sobre o mundo Tech, em um único lugar.</h2>
+        <h1 id="titulo-cabecalho">CURIOSIDADE DE TECNOLOGIA</h1>
+        <h4>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar.</h4>
         <nav id="menu">
             <a href="#">Home</a>
             <a href="#">Notícias</a>
@@ -17,39 +81,46 @@
         </nav>
     </header>
     <main>
-        <h1>História do Mascote do Android</h1>
+        <h1 class="tipo-um">História do Mascote do Android</h1>
 
 <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
 
-<h2>A primeira versão</h2>
+<h2 class="tipo-dois">A primeira versão</h2>
 
 <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
 
-<img src="imagens/dan-droids.png" alt="imagem dos dan-droids">
+<img src="imagens/dan-droids.png" 
+alt="imagem dos dan-droids"
+width="500px">
 <p>
     
     Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
 </p>
 
-<h2>Surge um novo mascote</h2>
+<h2 class="tipo-dois">Surge um novo mascote</h2>
 
 <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
 
-<img src="imagens/irina-blok.jpg" alt="ilustradora Russa Irina Blok">
+<img src="imagens/irina-blok.jpg" 
+alt="ilustradora Russa Irina Blok"
+width="500px">
 
 <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
 
-<img src="imagens/bugdroid.png" alt="Bugdroid, o novo mascote do Android">
+<img src="imagens/bugdroid.png" 
+alt="Bugdroid, o novo mascote do Android"
+width="200px"
+>
 
 <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
 <br>
-<section id="yt-vd">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=0Q5HHll9XaleV0kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</section>
+<p id="yt-vd">
+    <iframe width="400" height="200" src="https://www.youtube.com/embed/l2UDgpLz20M?si=0Q5HHll9XaleV0kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 <section>
        
-    <h2>Quer aprender mais?</h2>
+    <h2 class="titulo-tres">Quer aprender mais?</h2>
     <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
     </p>
     <ul>
