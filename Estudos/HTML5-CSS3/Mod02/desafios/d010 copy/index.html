@@ -5,18 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /*Paleta de cores
-        #C5EBD6
-        #83E1AD
-        #3DDC84
-        #2FA866
-        #063D1E
-        */
-        /* Fontes 
-        Bebas Neuer, cursive
-        iDroid, sans-serif
-        Arial,H...
-        */
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        
         :root {
             --cor0:#C5EBD6;
             --cor1:#83E1AD;
@@ -24,12 +15,23 @@
             --cor3:#2FA866;
             --cor4:#1A5c37;
             --cor5:#063D1E;
+
+            --fonte0: Arial, Helvetica, sans-serif;
+            --fonte1: 'Bebas Neue',cursive;
+            --fonte2: 'Android', sans-serif;
         }
        
+        body {
+            font-family: var(--fonte0);
+            color: var(--cor0);
+            background-color: var(--cor1);
+        }
+
         main {
             min-width: 400px;
             max-width: 800px;
         }
+
     </style>
 </head>
 <body>
