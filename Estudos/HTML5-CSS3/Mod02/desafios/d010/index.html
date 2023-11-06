@@ -64,9 +64,19 @@
             background-color: rgba(144, 238, 144, 0.548);
         }
 
-        
-        div.video{
+        .img-dois {
+           width: auto;
+           margin: auto;
+            content: center;
+            
+        }
+        .fundo-vd{
             background-color: darkgreen;
+            border-radius: 15px;
+        }
+
+        .video{
+           
             position: relative;
             height: 0px;
             margin-left: -20px;
@@ -78,7 +88,7 @@
 
         
         
-        div.video > iframe {
+        .video > iframe {
             position: absolute;
             top: 5%;
             left: 5%;
@@ -157,9 +167,11 @@
 
     <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
 
-    <img src="imagens/dan-droids.png" 
-    alt="imagem dos dan-droids"
-    width="500px">
+    <div class="img-um">
+        <img src="imagens/dan-droids.png"
+        alt="imagem dos dan-droids"
+        width="95%">
+    </div>
 
     <p>
     Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
@@ -169,28 +181,31 @@
 
     <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
 
-    <img src="imagens/irina-blok.jpg"
-        alt="ilustradora Russa Irina Blok"
-        width="500px">
-    <picture>
-        <source media="(max-width: 350px)" srcset="imagens/irina-blok.jpg" type="image/png">
-        <img src="imagens/irina-blok-pq.jpg" alt="ilustradora Russa Irina Blok" type="image/png">
-    </picture>
+    
+   
+   <div class="img-dois">
+    <img src="imagens/irina-blok.jpg" 
+    width="95%"
+    alt="ilustradora Russa Irina Blok">
+   </div>
 
     <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
 
-    <img src="imagens/bugdroid.png" 
-    alt="Bugdroid, o novo mascote do Android"
-    width="200px"
-    >
+    <div class="img-tres">
+        <img src="imagens/bugdroid.png"
+        alt="Bugdroid, o novo mascote do Android"
+        width="20%"
+        margin="auto">
+    </div>
 
 <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
 
-    
-        <div class="video">
-        <iframe width="400" height="200" src="https://www.youtube.com/embed/l2UDgpLz20M?si=0Q5HHll9XaleV0kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-
+    <section class="fundo-vd">
+        
+            <div class="video">
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/l2UDgpLz20M?si=0Q5HHll9XaleV0kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+    </section>
 
 <section class="principal">
        
