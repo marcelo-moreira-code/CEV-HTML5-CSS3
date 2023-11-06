@@ -64,10 +64,23 @@
             background-color: rgba(144, 238, 144, 0.548);
         }
 
-        p#yt-vd{
+        div.video{
             background-color: darkgreen;
+            position: relative;
+            height: 0px;
+            margin-left: -20px;
+            margin-right: -20px;
+            margin-bottom: 15px;
+            padding-bottom: 59%;
         }
 
+        div.video > iframe {
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
         
         
         .principal {
@@ -134,40 +147,44 @@
     <main>
         <h1 class="tipo-um">História do Mascote do Android</h1>
 
-<p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+    <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
 
-<h2 class="tipo-dois">A primeira versão</h2>
+    <h2 class="tipo-dois">A primeira versão</h2>
 
-<p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+    <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
 
-<img src="imagens/dan-droids.png" 
-alt="imagem dos dan-droids"
-width="500px">
-<p>
-    
+    <img src="imagens/dan-droids.png" 
+    alt="imagem dos dan-droids"
+    width="500px">
+
+    <p>
     Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
-</p>
+    </p>
 
-<h2 class="tipo-dois">Surge um novo mascote</h2>
+    <h2 class="tipo-dois">Surge um novo mascote</h2>
 
-<p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+    <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
 
-<img src="imagens/irina-blok.jpg" 
-alt="ilustradora Russa Irina Blok"
-width="500px">
+    <img src="imagens/irina-blok.jpg"
+        alt="ilustradora Russa Irina Blok"
+        width="500px">
+    <picture>
+        <source media="(max-width: 350px)" srcset="imagens/irina-blok.jpg" type="image/png">
+        <img src="imagens/irina-blok-pq.jpg" alt="ilustradora Russa Irina Blok" type="image/png">
+    </picture>
 
-<p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+    <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
 
-<img src="imagens/bugdroid.png" 
-alt="Bugdroid, o novo mascote do Android"
-width="200px"
->
+    <img src="imagens/bugdroid.png" 
+    alt="Bugdroid, o novo mascote do Android"
+    width="200px"
+    >
 
 <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
 <br>
-<p id="yt-vd">
+<div class="video">
     <iframe width="400" height="200" src="https://www.youtube.com/embed/l2UDgpLz20M?si=0Q5HHll9XaleV0kv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+</div>
 
 <section class="principal">
        
