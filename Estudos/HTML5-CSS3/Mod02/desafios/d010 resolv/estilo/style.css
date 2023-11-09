@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@font-face {
+    font-family: 'Android';
+    src: url(/Estudos/HTML5-CSS3/Mod02/desafios/d010\ resolv/fonts/idroid.otf) format('opentype');
+}
+
         
         :root {
             --cor0:#C5EBD6;
