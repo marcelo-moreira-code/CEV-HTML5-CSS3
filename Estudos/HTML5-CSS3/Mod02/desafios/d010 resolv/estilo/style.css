@@ -4,6 +4,7 @@
 @font-face {
     font-family: 'Android';
     src: url(/Estudos/HTML5-CSS3/Mod02/desafios/d010\ resolv/fonts/idroid.otf) format('opentype');
+    font-weight: normal;
 }
 
         
@@ -36,7 +37,7 @@
             padding-left: 15px;
         }
         body {
-            font-family: var(--fonte0);
+            font-family: var(--fonte3);
             color: var(--cor0);
             background-color: var(--cor1);
             padding-left: 15px;
