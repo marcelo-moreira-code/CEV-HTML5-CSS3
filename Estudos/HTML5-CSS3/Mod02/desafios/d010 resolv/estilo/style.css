@@ -28,19 +28,37 @@
 
         
 header {
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor2),var(--cor4));
     color: white;
     text-align: center;
     font-family: var(--fonte1);
+
+    min-width: 150px;
+
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte2);
+
+    margin-bottom: 20px;
+    font-size: 3em;
+
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.637);
 }
 
 header > p {
     color: white;
+    font-family: var(--fonte0);
+    font-size: 1.2em;
+
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
 }
 
 body {
