@@ -97,6 +97,11 @@ body {
     
 }
 
+a.externa::after {
+    content: "\1F517";
+
+}
+
 main p {
     margin: 15px 0px 15px 0px;
     text-align: justify;
@@ -172,6 +177,24 @@ ul {
     list-style-type: '\2714\0020\0020';
     columns: 2;
     list-style-position: inside;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside h3 {
+    background-color: var(--cor4);
+    color: white;
+
+    padding: 10px;
+
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer {
