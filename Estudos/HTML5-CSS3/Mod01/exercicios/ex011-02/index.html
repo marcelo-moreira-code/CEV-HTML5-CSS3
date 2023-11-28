@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens Dinâmicas</title>
+    <style>
+        #img-um {
+            margin: auto;
+            
+           padding-left: 250px;
+        }
+    </style>
 </head>
 <body>
     <h1>Imagens Flexíveis</h1>
     <hr>
-    <picture>
+    <picture id="img-um">
         <source media="(max-width: 750px)" srcset="imagens/simo-p.jpg" type="image/jpg">
         <source media="(max-width: 1050px)" srcset="imagens/simo-m.jpg" type="image/jpg">
         <img src="imagens/simo-g.jpg" alt="">
