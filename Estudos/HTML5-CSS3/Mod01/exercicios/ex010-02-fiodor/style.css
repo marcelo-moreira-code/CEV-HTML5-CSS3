@@ -35,3 +35,13 @@ h2 {
 p {
     text-align: justify;
 }
+
+li {
+    list-style-type: disc;
+    list-style-position: outside;
+
+}
+
+a {
+    text-decoration: none;
+}
