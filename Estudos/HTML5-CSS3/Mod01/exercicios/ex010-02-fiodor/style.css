@@ -36,6 +36,10 @@ p {
     text-align: justify;
 }
 
+.image {
+    text-align: center;
+}
+
 li {
     list-style-type: disc;
     list-style-position: outside;
